@@ -1,5 +1,5 @@
 require 'pry'
-require_relative sorting''
+require_relative 'sorting'
 
 def sort(arr)
   return (arr.length >= 2 )? arr = arr_split(arr) : arr
@@ -15,7 +15,7 @@ def minimum(arr)
 end
 
 # expect it to return 42 below
-result = maximum([42, 2, 13, 4])
+result = maximum([2, 42, 22, 02])
 puts "max of 2, 42, 22, 02 is: #{result}"
 
 # expect it to return 2 below
