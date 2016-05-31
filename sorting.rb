@@ -8,7 +8,6 @@ def arr_split(in_array)
   for i in 1..(parent_array.length/2)
     left_array.push(right_array.shift)
   end
-  #binding.pry
 
   #Splits when array length has more than one element. RECURSION STARTS HERE
   if left_array.length > 1
@@ -44,5 +43,4 @@ def arr_sort(left_mini_array, right_mini_array)
     return_array.push(right_mini_array.shift)
   end
   return return_array
-  #binding.pry
 end
